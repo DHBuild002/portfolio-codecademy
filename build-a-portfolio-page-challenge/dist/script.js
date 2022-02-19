@@ -40,14 +40,14 @@ shadowOn();
 
 const callback = (entries, observer) => {
   const entry = entries[0];
-  const navBar = document.querySelector('.nav');
+  const navBar = document.querySelector('.navigation-section');
   navBar.classList.toggle('nav--scrolled', !entry.isIntersecting);
 }
 const options = {
   // rootMargin: "-60px 0px 0px 0px",
-  threshold: [1]
+  threshold: [0]
 };
 
 const io = new IntersectionObserver(callback, options)
-const target = document.querySelector('.projects-h1')
+const target = document.querySelector('.welcome-h1')
 io.observe(target)
