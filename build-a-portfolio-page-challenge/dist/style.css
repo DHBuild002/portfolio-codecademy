@@ -40,6 +40,7 @@ li {
 } */
 .nav--scrolled {
     background-color: rgb(255, 255, 255);
+    box-shadow: .1px 0px 0px .5px gray;
 }
 .navbar {
     /* border: 1px green solid; */
