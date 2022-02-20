@@ -40,7 +40,7 @@ shadowOn();
 
 const callback = (entries, observer) => {
   const entry = entries[0];
-  const navBar = document.querySelector('.navigation-section');
+  const navBar = document.querySelector('.navbar');
   navBar.classList.toggle('nav--scrolled', !entry.isIntersecting);
 }
 const options = {
