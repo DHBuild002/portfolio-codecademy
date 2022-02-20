@@ -17,6 +17,10 @@ li {
     /* border: #ebf1ff 1px solid; */
     font-weight: 700;
 }
+.centered-icon {
+    text-align: center;
+    width: 100%;
+}
 /* #navigation {
     width: 100%;
     position: sticky;
@@ -58,7 +62,6 @@ li {
 .navbar li {
     display: inline-block;
 }
-
 .nav-link {
     padding: 5px 25px;
     /*   border: 1px red solid; */
@@ -81,7 +84,14 @@ li {
 .section {
     height: 100vh;
 }
-
+.int-link {
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+#pro-int-link {
+    margin-bottom: 0;
+}
 /* welcome section */
 #welcome {
     margin: 0 auto;
