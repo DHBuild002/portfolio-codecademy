@@ -49,5 +49,5 @@ const options = {
 };
 
 const io = new IntersectionObserver(callback, options)
-const target = document.querySelector('.welcome-h1')
+const target = document.querySelector('.row-welcome')
 io.observe(target)

@@ -42,9 +42,10 @@ li {
     background-color: rgb(255, 255, 255);
 }
 .navbar {
-    border: 1px green solid;
+    /* border: 1px green solid; */
     position: fixed;
-    transition: 1s;
+    padding: 1%;
+    transition: .2s;
     width: 100%;
     z-index: 999;
 }
@@ -82,19 +83,16 @@ li {
 
 /* welcome section */
 #welcome {
-    margin: 0;
+    margin: 0 auto;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 75vh;
 }
 .welcome-h1 {
     color: black;
-    padding-top: 10%;
+    padding-top: 15%;
     text-transform: uppercase;
-    letter-spacing: 15px;
+    letter-spacing: 0px;
     text-align: center;
     font-size: 3rem;
     font-weight: 100;
