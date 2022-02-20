@@ -33,17 +33,22 @@ li {
     box-shadow: 1px 1px 1px rgb(148, 148, 148);
 }
 .navigation-section {
-  position: fixed;
-  /* border: 1px solid purple; */
+  position: sticky;
+  border: 1px solid purple;
   height: 60px; 
-  margin-left: 65%;
+  top: 0;
 }
 .nav--scrolled {
-  background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+.navbar {
+    width: 100%;
+    border: 1px green solid;
 }
 .navbar ul {
     list-style: none;
     margin: 0;
+    margin-left: 65%;
 }
 .navbar li {
     display: inline-block;
