@@ -19,8 +19,9 @@ li {
     font-weight: 700;
 }
 .centered-icon {
-    text-align: center;
-    width: 100%;
+    display: block;
+    width: 50%;
+    margin: auto;
 }
 /* #navigation {
     width: 100%;
@@ -90,16 +91,18 @@ li {
     cursor: pointer;
     position: relative;
     top: 150px;
+}
+.int-link {
     overflow: hidden;
 }
 #pro-int-link {
     margin-bottom: 0;
     color: rgb(73, 73, 73);
     text-decoration: none;
+
 }
 i:hover{
     color: unset;
-    overflow: hidden;
     text-decoration: none;
     transition: all .2s ease-in-out;
     transform: scale(1.2);
