@@ -22,7 +22,6 @@ li {
 .centered-icon {
     position: relative;
     width: 100%;
-    overflow: hidden;
     margin: auto 0;
 }
 /* #navigation {
