@@ -1,10 +1,12 @@
 html{scroll-behavior: smooth;}
 body {
     margin: 0;
+    min-height: 100vh; /*Solution from here: https://www.freecodecamp.org/news/html-page-width-height/ */
     font-family: Lato;
     font-weight: 500;
     padding: 0;
     position: relative;
+    overflow-x: hidden;
 }
 
 h1 {
