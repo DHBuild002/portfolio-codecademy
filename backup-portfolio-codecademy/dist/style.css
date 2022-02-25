@@ -110,7 +110,6 @@ i:hover{
     color: unset;
     text-decoration: none;
     transition: all .2s ease-in-out;
-    transform: scale(1.2);
 }
 #pro-int-link:active {
     color: gray;
