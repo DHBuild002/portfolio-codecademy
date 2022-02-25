@@ -152,7 +152,7 @@ i:hover{
 .projects-h1 {
     text-align: center;
     font-size: 55px;
-    padding-top: 15%;
+    padding-top: 6%;
 }
 .tiles {
     /*   border: 1px red solid; */
@@ -160,9 +160,17 @@ i:hover{
     padding: 0;
     margin: 0 auto;
 }
-.link-btn {
+.custom-card {
+    background-color: rgb(255, 255, 255);
+}
+.custom-btn {
+    background: white;
+    border: 1px rgb(176, 176, 176) solid;
+    color: black;
+}
+/* .link-btn {
     background-color: #183446;
-    /* border: 1px solid #ebf1ff; */
+     border: 1px solid #ebf1ff;
 }
 /* Workbench Section */
 #workbench {
