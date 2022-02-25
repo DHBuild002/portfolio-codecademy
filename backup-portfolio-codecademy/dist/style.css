@@ -135,8 +135,11 @@ i:hover{
     margin: 0;
 }
 /* Project Section */
+#projects {
+    height: 85vh;
+}
 .project-row {
-    margin: 5%;
+    margin: 2%;
 }
 .project-row .card {
     margin: 25px;
