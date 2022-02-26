@@ -1,7 +1,7 @@
 html{scroll-behavior: smooth;}
 body {
     margin: 0;
-    min-height: 100vh; /*Solution from here: https://www.freecodecamp.org/news/html-page-width-height/ */
+    /* min-height: 100vh; Solution from here: https://www.freecodecamp.org/news/html-page-width-height/ */
     font-family: Lato;
     font-weight: 500;
     padding: 0;
@@ -135,7 +135,7 @@ i:hover{
 }
 /* Project Section */
 #projects {
-    height: 85vh;
+    height: 95vh;
 }
 .project-row {
     margin: 2%;
@@ -145,8 +145,8 @@ i:hover{
 }
 #projects {
     z-index: 0;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 .projects-h1 {
     text-align: center;
@@ -174,20 +174,21 @@ i:hover{
 /* Workbench Section */
 #workbench {
     border-top: 1px solid #ebf1ff;
-    height: 25vh;
+    padding: 6em;
+    margin-top: auto;
+    height: 55vh;
 }
-.items {
-    padding: 10%;
+.workbench-container {
+        padding: 4%;
+        margin: 0;
+        text-align: center;
 }
-#workbench {
-    /* border: purple 1px solid; */
-    height: 250px;
-}
-#workbench h1 {
+#workbench h1, p {
     text-align: center;
 }
-#workbench p {
-    text-align: center;
+#workbench i {
+    font-size: 65px;
+    padding: 1%;
 }
 button.btn {
     margin: 0 auto;
