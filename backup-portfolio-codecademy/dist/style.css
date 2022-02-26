@@ -166,6 +166,12 @@ i:hover{
     background: white;
     border: 1px rgb(176, 176, 176) solid;
     color: black;
+    float: right;
+}
+.custom-btn:hover{
+    color: rgb(10, 10, 10);
+    background-color: white;
+    border: 1px solid grey;
 }
 /* .link-btn {
     background-color: #183446;
@@ -183,7 +189,7 @@ i:hover{
         margin: 0;
         text-align: center;
 }
-#workbench h1, p {
+#workbench h1, #workbench p {
     text-align: center;
 }
 #workbench i {
