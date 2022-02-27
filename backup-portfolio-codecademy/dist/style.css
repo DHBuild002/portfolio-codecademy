@@ -153,6 +153,9 @@ i:hover{
     font-size: 55px;
     padding-top: 6%;
 }
+.project-img {
+    height: 30vh;
+}
 .tiles {
     /*   border: 1px red solid; */
     position: relative;
