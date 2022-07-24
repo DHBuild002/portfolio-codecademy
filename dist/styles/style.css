@@ -166,6 +166,7 @@ i:hover{
 }
 .custom-card {
     background-color: rgb(255, 255, 255);
+    height: auto;
 }
 .custom-btn {
     background: white;
