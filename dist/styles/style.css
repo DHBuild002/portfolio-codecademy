@@ -156,7 +156,11 @@ i:hover{
     padding-top: 6%;
 }
 .project-img {
-    height: 30vh;
+    height: auto !important;
+    width: auto !important;
+    max-height: 150px !important;
+    max-width: 404px;
+    margin: auto 65px;
 }
 .tiles {
     /*   border: 1px red solid; */
