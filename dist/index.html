@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <title>Dan Haddock - Portfolio - Junior Software Developer</title>
     <link
-    rel="stylesheet"
-    href="https://static.fontawesome.com/css/fontawesome-app.css"
+      rel="stylesheet"
+      href="https://static.fontawesome.com/css/fontawesome-app.css"
     />
     <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="styles/style.css" />
     <!-- Fonts -->
@@ -20,38 +20,43 @@
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
   </head>
   <body>
-    
+    <a
+      class="attributeIcon"
+      href="https://www.flaticon.com/free-icons/project"
+      title="project icons"
+      >Project icons created by Freepik - Flaticon</a
+    >
     <!-- <section id="navigation-disabled" class="navigation-section"> -->
-      <!-- Test-FIX: Trying out a fix that suggests the navbar should be a child to the body -->
-      <div class="navbar">
-        <ul>
-          <li>
-            <a class="nav-link" href="#workbench">The Workbench</a></li>
-          <!-- <li>
+    <!-- Test-FIX: Trying out a fix that suggests the navbar should be a child to the body -->
+    <div class="navbar">
+      <ul>
+        <li>
+          <a class="nav-link" href="#workbench">The Workbench</a>
+        </li>
+        <!-- <li>
             <a class="nav-link" href="#workbench">The Workbench</a>
           </li> -->
-        </ul>
+      </ul>
+    </div>
+
+    <!-- Welcome Section -->
+    <section class="section solid-nb" id="welcome">
+      <div class="row-welcome">
+        <h1 class="welcome-h1">Portfolio</h1>
+        <span class="int-link">
+          <a id="pro-int-link" href="#projects">
+            <!-- <p id="pro-int-link">Projects</p> -->
+            <i class="centered-icon fa-solid fa-chevron-down"></i>
+          </a>
+        </span>
       </div>
+    </section>
 
-      <!-- Welcome Section -->
-        <section class="section solid-nb" id="welcome">
-          <div class="row-welcome">
-            <h1 class="welcome-h1">Portfolio</h1>
-            <span class="int-link">
-              <a id="pro-int-link" href="#projects">
-                <!-- <p id="pro-int-link">Projects</p> -->
-                <i class="centered-icon fa-solid fa-chevron-down"></i>
-              </a>
-            </span>
-          </div>
-        </section>
-
-      
     <!-- Projects Section -->
     <section class="section" id="projects">
       <h1 class="projects-h1">Latest Projects</h1>
@@ -60,17 +65,22 @@
           <div class="card custom-card">
             <img
               class="card-img-top project-img mh-100"
-              src="img/Uber Clone Project Showcase.png"
+              src="img/project-default.png"
               alt="Card image cap"
             />
             <div class="card-body">
               <h5 class="card-title">Uber Clone - Mobile Experience</h5>
               <p class="card-text">
-                A nextJS code along app built with ReactJS. 
-                It clones the mobile experience of the Uber app.
-                Using tools such as ReactJS, Firebase and Google Sign-on.
+                A nextJS code along app built with ReactJS. It clones the mobile
+                experience of the Uber app. Using tools such as ReactJS,
+                Firebase and Google Sign-on.
               </p>
-              <a href="https://github.com/DHBuild002/uber_clone_nextjs" class="custom-btn btn btn-primary"> View Code</a>
+              <a
+                href="https://github.com/DHBuild002/uber_clone_nextjs"
+                class="custom-btn btn btn-primary"
+              >
+                View Code</a
+              >
             </div>
           </div>
         </div>
@@ -81,13 +91,18 @@
               src="img/ForkifyV2-Showcase-Project.png"
               alt="Card image cap"
             />
-            <div class="card-body ">
+            <div class="card-body">
               <h5 class="card-title">Forkify App - Recipe Indexer</h5>
               <p class="card-text">
-                Choose your own meal adventure. 
-                A recipe selection application that used a pre-built API for the recipe data, and HTML/CSS and Javascript. 
+                Choose your own meal adventure. A recipe selection application
+                that used a pre-built API for the recipe data, and HTML/CSS and
+                Javascript.
               </p>
-              <a href="https://github.com/DHBuild002/forkify-v2" class="custom-btn btn btn-primary">View Code</a>
+              <a
+                href="https://github.com/DHBuild002/forkify-v2"
+                class="custom-btn btn btn-primary"
+                >View Code</a
+              >
             </div>
           </div>
         </div>
@@ -101,10 +116,15 @@
             <div class="card-body">
               <h5 class="card-title">Amazon Webpage Clone</h5>
               <p class="card-text">
-                A full clone of the Amazon website experience, that used Firebase for the user account 
-                handling and had a fully built checkout/shopping cart system. 
+                A full clone of the Amazon website experience, that used
+                Firebase for the user account handling and had a fully built
+                checkout/shopping cart system.
               </p>
-              <a href="https://github.com/DHBuild002/amazon-clone" class="custom-btn btn btn-primary">View Code</a>
+              <a
+                href="https://github.com/DHBuild002/amazon-clone"
+                class="custom-btn btn btn-primary"
+                >View Code</a
+              >
             </div>
           </div>
         </div>
@@ -114,17 +134,17 @@
     <!-- The Workbench Section -->
     <section class="section" id="workbench">
       <div class="workbench-container">
-      <i class="centered-icon fab fa-github"></i>
-      <h1>Other study & work</h1>
-      <p>See what I am working on at the moment</p>
+        <i class="centered-icon fab fa-github"></i>
+        <h1>Other study & work</h1>
+        <p>See what I am working on at the moment</p>
         <button class="btn btn-secondary github-prof">
           View Current Projects
         </button>
       </div>
     </section>
-  <!-- </div> -->
+    <!-- </div> -->
     <!-- partial
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-    <script src="./script.js"></script> 
+    <script src="./script.js"></script>
   </body>
 </html>
