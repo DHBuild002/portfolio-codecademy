@@ -102,9 +102,6 @@ li {
     position: relative;
     top: 15px;
 }
-.int-link {
-    overflow: hidden;
-}
 #pro-int-link {
     margin-bottom: 0;
     color: rgb(73, 73, 73);
@@ -128,7 +125,7 @@ i:hover{
 }
 .welcome-h1 {
     color: black;
-    padding-top: 15%;
+    padding-top: 0;
     text-transform: uppercase;
     letter-spacing: 0px;
     text-align: center;
@@ -137,6 +134,10 @@ i:hover{
 }
 .row-welcome {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 /* Project Section */
 #projects {
