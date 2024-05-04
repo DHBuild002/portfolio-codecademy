@@ -1,6 +1,8 @@
-# Build a Portfolio page Challenge
+## Portfolio
+Visit the final product here: https://dhbuild002.github.io/portfolio-codecademy/
 
-A Pen created on CodePen.io. 
-Original URL: [https://codepen.io/DanHaddock/pen/KKyqONg](https://codepen.io/DanHaddock/pen/KKyqONg).
+
+# Build a Portfolio page Challenge
+[A Pen created on CodePen.io](https://codepen.io/DanHaddock/pen/KKyqONg).
 
 
