@@ -1,6 +1,6 @@
 let links = document.getElementsByClassName("nav-link");
 let navbar = document.getElementById("navigation");
-
+let modal = document.getElementById("contact-modal");
 // Check I linked it up correctly
 console.log("script.js online");
 
@@ -18,3 +18,19 @@ const options = {
 const io = new IntersectionObserver(callback, options);
 const target = document.querySelector(".row-welcome");
 io.observe(target);
+
+// Keyboard Shortcut - Contact me Modal
+const showModal = () => {
+  modal.style.display = "block";
+};
+const hideModal = () => {
+  modal.style.display = "none";
+};
+const cPress = document.addEventListener("keydown", (e) => {
+  console.log(e.key);
+  if (e.key === "c") {
+    modal.showModal();
+    console.log(e);
+  }
+  
+});
