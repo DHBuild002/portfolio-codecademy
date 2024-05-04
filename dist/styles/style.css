@@ -141,7 +141,7 @@ i:hover{
 }
 /* Project Section */
 #projects {
-    height: 95vh;
+    height: 100%;
 }
 .project-row {
     margin: 2%;
@@ -154,14 +154,12 @@ i:hover{
     height: auto;
 }
 #projects {
-    z-index: 0;
-    /* width: 100%; */
-    /* height: 100%; */
+    z-index: 0; 
 }
-.projects-h1 {
+.projects-h2 {
     text-align: center;
     font-size: 55px;
-    padding-top: 6%;
+    padding-top: 100px;
 }
 .project-img {
     height: 250px;
