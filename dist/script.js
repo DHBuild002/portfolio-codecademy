@@ -20,17 +20,14 @@ const target = document.querySelector(".row-welcome");
 io.observe(target);
 
 // Keyboard Shortcut - Contact me Modal
-const showModal = () => {
-  modal.style.display = "block";
+const toggleDisplay = () => {
+  modal.style.display = modal.style.display === "none" ? "block" : "none";
 };
-const hideModal = () => {
-  modal.style.display = "none";
-};
-const cPress = document.addEventListener("keydown", (e) => {
-  console.log(e.key);
-  if (e.key === "c") {
-    modal.showModal();
-    console.log(e);
+const shortcutKeyC = (event) => {
+  if (event.key == "c") {
+    toggleDisplay();
   }
-  
-});
+};
+
+// Handl the KeyPress EVent
+document.addEventListener("keydown", shortcutKeyC);
