@@ -39,7 +39,7 @@ dialog:focus, textarea:focus, input:focus{
 }
 /* Contact Modal */
 #contact-modal {
-    height: 50%;
+    height: 56%;
     width: 1000px;
     background-color: white;
     margin: 50 auto;
@@ -48,18 +48,38 @@ dialog:focus, textarea:focus, input:focus{
 
     border-style: none;
 }
-#contact-modal > div {
+div > form {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    justify-content: center;    
 }
 .container {
-    gap: 30px
+    gap: 30px;
 }
-.left-body{
-    justify-content: space-evenly;
-    
+.container form {
+    flex-direction: column;
+    margin: 50px;
 }
-
+form > input[type=button]{
+    background-color: rgb(102, 102, 102);
+    color: white;
+    margin-top: 9px;
+    width: 25%;
+    font-size: 16px; 
+    cursor: pointer; 
+    text-transform: uppercase;
+    align-self: flex-end;  
+}
+form > input {
+    border-radius: 8px;
+    border: .5px solid lightgrey;
+    font-size: 12px;
+    padding: 5px;
+}
+.help-msg{
+    overflow-y: hidden;
+    text-align: center;
+}
 dialog::backdrop {
     background-color: rgba(109, 109, 109, 0.415);
 }
