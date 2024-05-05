@@ -21,13 +21,29 @@ io.observe(target);
 
 // Keyboard Shortcut - Contact me Modal
 const toggleDisplay = () => {
-  modal.style.display = modal.style.display === "none" ? "block" : "none";
+  if (modal.open) {
+    modal.close();
+  } else {
+    modal.showModal();
+  }
 };
-const shortcutKeyC = (event) => {
+const shortcutToOpen = (event) => {
   if (event.key == "c") {
     toggleDisplay();
   }
 };
 
-// Handl the KeyPress EVent
-document.addEventListener("keydown", shortcutKeyC);
+// Handle the initial KeyPress Event
+document.addEventListener("keydown", shortcutToOpen);
+
+const shortcutToClose = (event) => {
+  if (event.key === "c" && modal.open) {
+    modal.close();
+
+    // Remove the Event listener to return us back to original state in the document
+    document.removeEventListener("keydown", shortcutToClose);
+  }
+};
+
+// Handle the close event
+document.addEventListener("keydown", shortcutToClose);

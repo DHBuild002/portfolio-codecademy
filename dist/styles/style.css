@@ -183,6 +183,9 @@ i:hover{
     z-index: 99;
     border-radius: 10px;
 }
+dialog::backdrop {
+    background-color: pink;
+}
 
 .custom-card {
     background-color: rgb(255, 255, 255);
