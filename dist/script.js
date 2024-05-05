@@ -29,6 +29,7 @@ const toggleDisplay = () => {
 };
 const shortcutToOpen = (event) => {
   if (event.key == "c") {
+    event.preventDefault();
     toggleDisplay();
   }
 };

@@ -24,8 +24,44 @@ li {
     opacity: 1;
     display: inline-block
 }
+input{
+    border-color: lightgrey;
+    box-shadow: none
+}
+dialog:focus, textarea:focus, input:focus{ 
+    border: 1px solid grey;
+    outline: none;
+    
+     
+}
 .attributeIcon {
     display: none;
+}
+/* Contact Modal */
+#contact-modal {
+    height: 50%;
+    width: 1000px;
+    background-color: white;
+    margin: 50 auto;
+    z-index: 99;
+    border-radius: 10px;
+
+    border-style: none;
+}
+#contact-modal > div {
+    display: flex;
+    flex-direction: row;    
+}
+.container {
+    gap: 30px
+}
+.left-body{
+    justify-content: space-evenly;
+    
+}
+
+dialog::backdrop {
+    background-color: rgba(109, 109, 109, 0.415);
 }
 .centered-icon {
     position: relative;
@@ -172,19 +208,6 @@ i:hover{
     position: relative;
     padding: 0;
     margin: 0 auto;
-}
-/* Contact Modal */
-#contact-modal {
-    height: 50%;
-    width: 1000px;
-    border: 1px solid rgb(171, 171, 171);
-    background-color: white;
-    margin: 50px;
-    z-index: 99;
-    border-radius: 10px;
-}
-dialog::backdrop {
-    background-color: pink;
 }
 
 .custom-card {
